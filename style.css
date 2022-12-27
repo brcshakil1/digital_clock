@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body, .clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(to right, #28313B, #485461);
+    min-height: 100vh;
+}
+
+.clock {
+    width: 350px;
+    height: 100px;
+    background: #2C3E50;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(27, 27, 65);
+}
+
+.hours, .minutes, .seconds, .dots {
+    font-size: 4rem;
+    color: rgb(201, 201, 201);
+}
+
+#ampm {
+    font-size: 2rem;
+    color: rgb(195, 205, 50)
+}
