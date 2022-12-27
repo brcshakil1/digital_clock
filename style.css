@@ -18,7 +18,7 @@ body {
     height: 100px;
     background: #2C3E50;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgb(27, 27, 65);
+    box-shadow: 0 0 20px rgb(53, 77, 78);
 }
 
 .hours, .minutes, .seconds, .dots {
@@ -28,5 +28,5 @@ body {
 
 #ampm {
     font-size: 2rem;
-    color: rgb(195, 205, 50)
+    color: rgb(126, 126, 126);
 }
